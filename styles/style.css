@@ -2,23 +2,18 @@
     z-index: -1;
     position: absolute;
     fill: #C94949;
-    border: solid;
-    border-color: lightgreen;
 }
 #rec1{
-    z-index: -1;
-    position: absolute;
-    transform: rotate(-38deg);
+    /* z-index: -1; */
+    /* position: absolute; */
     fill: #C94949;
+    /* fill-rule:evenodd; */
 
 }
 #rec2{
-    z-index: -1;
-    position: absolute;
-    transform: rotate(-38deg);
+    /* z-index: -1;
+    position: absolute; */
     fill: #C94949;
-    top: -5%;
-    left: 15%;
 }
 #rec3{
     z-index: -2;
@@ -45,3 +40,18 @@
     background-color: #262626;
 }
 
+.nav-link{
+    font-weight: 600;
+    font-family: 'Maven Pro', sans-serif;
+    color: #262626 !important;
+}
+
+.active{
+    font-weight: 700 !important;
+    border-bottom: 2px solid #C94949;
+}
+
+.nav{
+    padding-top: 10px;
+    padding-right: 10px;
+}
