@@ -1,0 +1,47 @@
+#heroBars{
+    z-index: -1;
+    position: absolute;
+    fill: #C94949;
+    border: solid;
+    border-color: lightgreen;
+}
+#rec1{
+    z-index: -1;
+    position: absolute;
+    transform: rotate(-38deg);
+    fill: #C94949;
+
+}
+#rec2{
+    z-index: -1;
+    position: absolute;
+    transform: rotate(-38deg);
+    fill: #C94949;
+    top: -5%;
+    left: 15%;
+}
+#rec3{
+    z-index: -2;
+    position: absolute;
+    transform: rotate(50deg);
+    fill: #262626;
+    bottom: -30%;
+    left: 0%;
+}
+.homeHero{
+    max-width: 100% !important;
+    margin: 0 !important;
+    height: 100vh;
+}
+
+.testBoarder{
+    border: solid;
+    border-color: coral;
+}
+
+#projects{
+    max-width: 100% !important;
+    height: 100vh;
+    background-color: #262626;
+}
+
